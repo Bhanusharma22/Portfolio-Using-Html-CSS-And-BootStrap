@@ -1,0 +1,89 @@
+.image {
+  width: 250px;
+}
+.image img {
+  width: 100%;
+}
+
+@media screen and (max-width: 991px) {
+  .image {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+  }
+}
+@media screen and (max-width: 991px) {
+  .image img {
+    width: 200px;
+  }
+}
+.letter h2 {
+  font-size: 4rem;
+  font-weight: 200;
+}
+
+@media screen and (max-width: 991px) {
+  .letter h2 {
+    margin-left: 50px;
+    font-weight: 200;
+    font-size: 2.5rem;
+    position: relative;
+    bottom: 55px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .letter p {
+    margin-left: 50px;
+
+    position: relative;
+    bottom: 64px;
+  }
+}
+.list {
+  display: flex;
+  justify-content: space-evenly;
+}
+@media screen and (max-width: 991px) {
+  .list {
+    margin-left: 50px;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+}
+.Projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Projects img {
+  /* background-size: cover; */
+  object-fit: cover;
+  height: 100%;
+}
+@media screen and (max-width: 767px) {
+  .Projects img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .photocart {
+    height: 300px;
+    width: 400px;
+    margin: 50px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .photocart {
+    height: 200px;
+    width: 300px;
+    margin: 50px;
+  }
+}
+.letter {
+  position: relative;
+  top: 20px;
+}
+.form {
+  width: 50vw;
+  margin: 30px auto;
+}
